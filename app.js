@@ -20,19 +20,19 @@ var urlencodedParser = bodyparser.urlencoded({ extended: false })
 
 ///////////////////////////////////ROUTES
 //index route
-app.get('/', (request, response)=>{
+app.get('/', (request, response) => {
     response.render("index")
 })
 
 //login route
-app.get('/login', (request, response)=>{
+app.get('/login', (request, response) => {
     response.render('login')
 })
-app.post('/login', urlencodedParser, (request, response)=>{
+app.post('/login', urlencodedParser, (request, response) => {
     console.log(request.body)
 })
 
-app.get('/faq', (request, response)=>{
+app.get('/faq', (request, response) => {
     response.render('faq')
 })
 
