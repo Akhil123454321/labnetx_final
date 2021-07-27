@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="../vendors/jquery-flipster/css/jquery.flipster.css">
 		<link rel="stylesheet" href="../css/style.css">
 		<link rel="shortcut icon" href="../images/icons/fav_icon_editted.png" />
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<div id="mobile-menu-overlay"></div>
@@ -59,7 +60,7 @@
 						<div class="col-sm-12">
 							<div class="main-banner">
 								<div class="d-sm-flex justify-content-between">
-									<div data-aos="zoom-in-up">
+									{{!-- <div data-aos="zoom-in-up">
 										<div class="banner-title">
 												<h3 class="font-weight-medium">LABNETX
 											</h3>
@@ -71,8 +72,26 @@
 									</div>
 									<div class="mt-5 mt-lg-0">
 										<img src= "#" alt="IMAGE1" class="img-fluid" data-aos="zoom-in-up">
+									</div> --}}
+									{{!-- <header>
+										<div class="overlay"></div>
+										<div class="container h-100">
+											<div class="d-flex h-100 text-center align-items-center">
+												<div class="w-100 text-white">
+													<h1 class="display-3">LabnetX</h1>
+													<p class="lead mb-0">Molecular Pathology Simplified</p>
+												</div>
+											</div>
+										</div>
+									</header> --}}
+									<video autoplay muted loop id="bannerVideo">
+										<source src="../images/icons/GettyImages.mp4" type="video/mp4">
+									</video>
+									<div class="content">
+										<h1>LabnetX</h1>
+										<p>Molecular Pathology Simplified</p>
 									</div>
-								</div>
+								</div> 
 							</div>
 						</div>
 					</div>
@@ -407,6 +426,7 @@
 		<script src="../vendors/owl.carousel/js/owl.carousel.js"></script>
 		<script src="../vendors/aos/js/aos.js"></script>
 		<script src="../vendors/jquery-flipster/js/jquery.flipster.min.js"></script>
-		<script src="js/template.js"></script>
+		<script src="../js/template.js"></script>
+		<script src="../js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
