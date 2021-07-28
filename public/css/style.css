@@ -19066,7 +19066,7 @@ html {
 }
 
 .home {
-  background: url("../images/banner-bg.svg");
+  /* background: url("../images/banner-bg.svg");  */
   background-repeat-y: no-repeat;
   background-position: 0 -50px;
   padding-top: 103px;
@@ -19468,3 +19468,12 @@ section {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+.video-container{
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  min-width: 100%;
+  min-height:100%;
+  transform: translate(-50%, -50%);
+}
+
