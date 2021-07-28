@@ -8624,7 +8624,7 @@
   --gray-lighter: #e8eff4;
   --gray-lightest: #e6e9ed;
   --black: #000000;
-  --primary: #3c37f1;
+  --primary: #37c1eb;
   --secondary: #1998ff;
   --success: #37c1eb;
   --info: #00b3ff;
@@ -10999,8 +10999,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #3c37f1;
-  border-color: #3c37f1;
+  background-color: #37c1eb;
+  border-color: #37c1eb;
 }
 
 .btn-primary:hover {
@@ -11017,8 +11017,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #3c37f1;
-  border-color: #3c37f1;
+  background-color: #37c1eb;
+  border-color: #37c1eb;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -11037,14 +11037,14 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #1998ff;
-  border-color: #1998ff;
+  background-color: #1887a8;
+  border-color: #1887a8;
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #0085f2;
-  border-color: #007ee5;
+  background-color: #428bf8;
+  border-color: #428bf8;
 }
 
 .btn-secondary:focus,
@@ -11075,14 +11075,14 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #37c1eb;
-  border-color: #37c1eb;
+  background-color: #1887a8;
+  border-color: #1887a8;
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #5e60f3;
-  border-color: #5e60f3;
+  background-color: #428bf8;
+  border-color: #428bf8;
 }
 
 .btn-success:focus,
@@ -11302,14 +11302,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #3c37f1;
-  border-color: #3c37f1;
+  color: #37c1eb;
+  border-color: #37c1eb;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #3c37f1;
-  border-color: #3c37f1;
+  background-color: #37c1eb;
+  border-color: #37c1eb;
 }
 
 .btn-outline-primary:focus,
@@ -11319,7 +11319,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #3c37f1;
+  color: #37c1eb;
   background-color: transparent;
 }
 
@@ -11327,8 +11327,8 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #3c37f1;
-  border-color: #3c37f1;
+  background-color: #37c1eb;
+  border-color: #37c1eb;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
@@ -13564,7 +13564,7 @@ a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #3c37f1;
+  background-color: #37c1eb;
 }
 
 a.badge-primary:hover,
@@ -15095,7 +15095,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #3c37f1 !important;
+  background-color: #37c1eb !important;
 }
 
 a.bg-primary:hover,
@@ -15231,7 +15231,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #3c37f1 !important;
+  border-color: #37c1eb !important;
 }
 
 .border-secondary {
@@ -18278,7 +18278,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #3c37f1 !important;
+  color: #37c1eb !important;
 }
 
 a.text-primary:hover,
@@ -18804,7 +18804,7 @@ h6,
 
 .footer {
   color: #e5e5e5;
-  background: #3c37f1 url(../images/footer_bg.svg);
+  background: #37c1eb url(../images/footer_bg.svg);
   background-size: cover;
   background-position: left bottom;
 }
@@ -18872,7 +18872,7 @@ h6,
 .navbar {
   width: 100%;
   padding: 1.875rem 1rem;
-  background: #3c37f1;
+  background: #37c1eb;
 }
 
 @media (max-width: 991px) {
@@ -19041,7 +19041,7 @@ h6,
   padding: 0.875rem 0.1rem;
   position: static;
   z-index: auto;
-  background: #3c37f1;
+  background: #37c1eb;
 }
 
 @media (max-width: 991px) {
@@ -19066,7 +19066,7 @@ html {
 }
 
 .home {
-  background: url("../images/icons/GettyImages.mp4");
+  background: url("../images/banner-bg.svg");
   background-repeat-y: no-repeat;
   background-position: 0 -50px;
   padding-top: 103px;
@@ -19243,7 +19243,7 @@ section {
 }
 
 .pricing-box .text-amount {
-  color: #3c37f1;
+  color: #37c1eb;
 }
 
 .pricing-box img {
@@ -19342,7 +19342,7 @@ section {
 }
 
 .toggle-switch input:checked + .toggle-slider {
-  background-color: #3c37f1;
+  background-color: #37c1eb;
 }
 
 .toggle-switch input:checked + .toggle-slider:before {
@@ -19405,12 +19405,12 @@ section {
   -webkit-backface-visibility: visible;
   transition: opacity 0.2s ease;
   border-radius: 3;
-  border: solid 2px #3c37f1;
+  border: solid 2px #37c1eb;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #3c37f1;
+  background: #37c1eb;
 }
 
 .owl-theme.owl-carousel-testimonial .owl-dots {
@@ -19468,91 +19468,3 @@ section {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
-
-/* header {
-  position: relative;
-  background-color: black;
-  height: 75vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-  position: relative;
-  z-index: 2;
-}
-
-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
-}
-
-/* Media Query for devices withi coarse pointers and no hover functionality */
-
-/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
-
-/* @media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('../images/icons/GettyImages.mp4') black no-repeat center center scroll;
-  }
-
-  header video {
-    display: none;
-  }
-} */ 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-/* Add some content at the bottom of the video/page */
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Style the button used to pause/play the video */
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
